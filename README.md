@@ -13,7 +13,7 @@ screenshot = Webshot()
 screenshot.configure("/path/to/nodejs/pageres")
 
 for url in urlArray:
-    screenshot.capture("https://" + url)
+    screenshot.capture(url)
 ```
 
 ```python
